@@ -10,8 +10,8 @@ echo "<br> ";
 $nama = "fadli";
 echo $nama;
 
-//ini telah di ubah...
-
+//ini telah di ubah... < fadli >
+//oke coy, thank you < tammy >
 
 // untuk mengeyahui versi php silakan gunakan func berikut
 // phpinfo();
