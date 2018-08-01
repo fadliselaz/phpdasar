@@ -1,0 +1,43 @@
+.header{
+  color : #FFB977;
+  margin-top: 20px;
+  text-align: center;
+}
+ body {
+   background-color : #5D5D5D;
+   font-family: 'Sunflower', sans-serif;
+   color : white;
+ }
+
+ .kotak {
+   padding : 20px;
+   border-radius: 10px;
+   background-color: #272727;
+
+   margin : 50px auto;
+   max-width: 300px;
+   border-style: solid;
+   border-width: medium;
+   border-color: #FFB977;
+ }
+ .btn,btn-warning{
+   width : 100%;
+   color : black;
+ }
+ .kotakTable{
+   background-color: #272727;
+   max-width: 800px;
+   margin: auto;
+   padding: 20px;
+   border-style: solid;
+   border-width: medium;
+   border-color: #FFB977;
+   border-radius: 10px;
+ }
+.btn{
+  color: white;
+  font-size: 12px;
+}
+input .cari {
+  width: 200px;
+}
