@@ -55,7 +55,7 @@ function tambah($data){
     return false;
   }
 
-  $query = "INSERT INTO mahasiswa VALUES('','$nama','$nrp','$email','$jurusan','$gambar')";
+  $query = "INSERT INTO mahasiswa(nama, nrp, email, jurusan, gambar) VALUES('$nama','$nrp','$email','$jurusan','$gambar')";
   mysqli_query($conn,$query);
   //kembalikan data, ketika ada data yang berhasil di tambah..
   return mysqli_affected_rows($conn);
@@ -243,7 +243,7 @@ function registrasi($data){
   // - password mana yang mau diacak dan pakai metode apa..
   $password = password_hash($password, PASSWORD_DEFAULT);
 
-  $query = "INSERT INTO user VALUES('','$username','$password')";
+  $query = "INSERT INTO user(username, password) VALUES('$username','$password')";
 
   mysqli_query($conn, $query);
 
