@@ -1,7 +1,7 @@
 <?php
 $server = "localhost"; //nama server di local hostnya
 $user = "root"; // nama usernya
-$password = ""; // pasword servernya defaultnya kosong
+$password = "root"; // pasword servernya defaultnya kosong
 $db = "phpdasar"; // nama databsenya
 
 //deklarasikan $conn sebagai koneksinya
@@ -12,7 +12,7 @@ function query($query){
   global $conn;
   //deklarasikan $result sebagai penampung datanya
   //$query disini variable dari SYNTAX MYSQL untuk ambil data
-  //pendeklarasian $query ada di file index.php
+  //args $query ada di file index.php
   $result = mysqli_query($conn, $query);
 
   //lalu kita buat ARRAY penampung baru untuk pengulangan while
