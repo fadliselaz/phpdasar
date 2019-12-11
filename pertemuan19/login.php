@@ -30,7 +30,7 @@
   //kita cek apakah user sudah login,
   //kalau sudah login tidak perlu login lagi
   if (isset($_SESSION['login'])) {
-    header("Location:index.php");
+    header("Location:index");
     exit;
   }
 
@@ -79,7 +79,7 @@
           }
 
 
-          header("Location:index.php");
+          header("Location:index");
           //agar berhenti pada header, gunakan exit
           exit;
         }
@@ -133,6 +133,7 @@
          </li>
        </ul>
      </form>
+     <a href="registrasi">register</a>
    </center>
 
 
